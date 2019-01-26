@@ -1,0 +1,81 @@
+.parentTop {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: slategray;
+}
+
+.resultContent {
+    text-align: center;
+    color: #f90;
+}
+
+.resultContent>button {
+    width: 40%;
+    height: 2em;
+    background-color: White;
+    color: #f90;
+    border: 2px solid black;
+}
+
+.resultContent>button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.resultContainer {
+    display: grid;
+    grid-template-rows: 3em;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 1em;
+}
+
+.gridTop {
+    border-color: "#f44336";
+    border: '1px solid red';
+    display: flex;
+    flex-direction: column;
+}
+
+.lightBackground {
+    background-color: 00FFFF
+}
+
+.columnsStyle {
+    display: flex;
+    flex-direction: column;
+}
+
+.rowStyle {
+    display: flex;
+}
+
+.darkBackground {
+    background-color: F0FFFF
+}
+
+.box {
+    width: 100;
+    height: 100;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.cross {
+    color: #f90;
+    font-size: 2.5em;
+    border-radius: 5px;
+    line-height: 100px;
+}
